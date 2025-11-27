@@ -2,6 +2,8 @@
 
 Aplicación mobile first y responsive para consultar el pronóstico del tiempo en cualquier ciudad del mundo, desarrollada con React y Vite
 
+![Weather App Screenshot](./assets/64e23ccf-80a7-4f6d-bd41-1b2770ba909d.png)
+
 ## ✨ Características
 
 - **🔍 Búsqueda por ciudad**: Consulta el tiempo en cualquier ciudad del mundo
