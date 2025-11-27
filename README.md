@@ -1,16 +1,24 @@
-# React + Vite
+# 🌤️ Weather Info App "Open Sky"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación mobile first y responsive para consultar el pronóstico del tiempo en cualquier ciudad del mundo, desarrollada con React y Vite
 
-Currently, two official plugins are available:
+## ✨ Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **🔍 Búsqueda por ciudad**: Consulta el tiempo en cualquier ciudad del mundo
+- **📱 Diseño mobile first y responsive**: Optimizada para móviles, tablets y desktop
+- **🎨 Interfaz moderna**: Gradientes azules y efectos visuales atractivos
+- **⏰ Pronóstico extendido**: Muestra el tiempo para las próximas horas y días
+- **🔄 Spinner de carga**: Experiencia de usuario mejorada con indicadores visuales
 
-## React Compiler
+## 🛠️ Tecnologías Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 18** - Biblioteca principal de UI
+- **Vite** - Herramienta de build y desarrollo
+- **Axios** - Cliente HTTP para peticiones a APIs
+- **CSS3** - Estilos con enfoque mobile-first
+- **OpenWeatherMap API** - Datos meteorológicos
+- **UUID** - Generación de IDs únicos
 
-## Expanding the ESLint configuration
+## 🔗 Despliegue Netlify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://ejercicio-weather-info.netlify.app/

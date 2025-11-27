@@ -13,9 +13,17 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.time {
+.date {
   font-size: 14px;
   font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.time {
+  font-size: 12px;
+  font-weight: 500;
   color: #666;
   margin-bottom: 8px;
 }
@@ -47,9 +55,12 @@
     border-radius: 12px;
   }
   
-  .time {
+  .date {
     font-size: 16px;
-    margin-bottom: 12px;
+  }
+  
+  .time {
+    font-size: 14px;
   }
   
   .temp {
@@ -74,8 +85,12 @@
     padding: 24px;
   }
   
-  .time {
+  .date {
     font-size: 18px;
+  }
+  
+  .time {
+    font-size: 14px;
   }
   
   .temp {
