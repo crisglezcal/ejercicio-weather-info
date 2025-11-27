@@ -4,22 +4,13 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(255, 255, 255, 0.95);
+  background: linear-gradient(135deg, #5469c3 0%, #764ba2 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
@@ -28,41 +19,97 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-attachment: fixed;
+}
+
+a {
+  font-weight: 500;
+  color: #a8c0ff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #ffefba;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 24px;
   line-height: 1.1;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  padding: 12px 16px;
+  font-size: 14px;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: all 0.25s;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #a8c0ff;
+  background: rgba(255, 255, 255, 0.25);
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Tablet */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+  
+  button {
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 48px;
+  }
+  
+  button {
+    padding: 16px 24px;
+    font-size: 18px;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #f8f9fa;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   }
+  
+  body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+  
+  a {
+    color: #dfe6e9;
+  }
+  
   a:hover {
-    color: #747bff;
+    color: #ffffff;
   }
+  
   button {
-    background-color: #f9f9f9;
+    background: rgba(255, 255, 255, 0.25);
+    color: #2d3436;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  button:hover {
+    background: rgba(255, 255, 255, 0.4);
   }
 }

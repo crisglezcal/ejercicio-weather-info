@@ -2,7 +2,7 @@ import React from "react";
 import './WeatherCard.css';
 
 const WeatherCard = ({data}) => {
-  // Formatear hora
+
   const getTime = (timestamp) => {
     const date = new Date(timestamp * 1000);
     return date.toLocaleTimeString('es-ES', { 
